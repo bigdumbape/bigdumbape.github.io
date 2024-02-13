@@ -31,8 +31,8 @@ hideColorSchemeToggle = true
 maxSeeAlsoItems = 5
 # Custom CSS
 customCSS = []
-# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 
 # Custom JS
 customJS = []
@@ -40,6 +40,7 @@ customJS = []
 # Custom remote JS files
 customRemoteJS = []
 
+# Need to clarify this scripting ability
 # scriptsrc = [
 #   "'self'",
 #   "'unsafe-inline'",
