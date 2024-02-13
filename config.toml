@@ -1,5 +1,5 @@
 baseURL = "http://busted.link"
-title = "a unequivocally busted link"
+title = "an unequivocally busted link"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
