@@ -1,4 +1,4 @@
-baseURL = "http://www.example.com"
+baseURL = "http://busted.link"
 title = "a unequivocally busted link"
 theme = "hugo-coder"
 languageCode = "en"
@@ -40,7 +40,6 @@ customJS = []
 # Custom remote JS files
 customRemoteJS = []
 
-# Need to clarify this scripting ability
 # scriptsrc = [
 #   "'self'",
 #   "'unsafe-inline'",
