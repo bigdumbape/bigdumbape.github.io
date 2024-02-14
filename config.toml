@@ -15,6 +15,7 @@ description = "enthusiastic chimp noises"
 keywords = "blog,developer,personal"
 info = ["physical and digital security enjoyer"]
 avatarURL = "images/monke.jpg"
+favicon = "images/monke.ico"
 dateFormat = "January 2, 2006"
 since = 2009
 # Right To Left, shift content direction for languagues such as Arabic
