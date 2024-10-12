@@ -1,4 +1,4 @@
-/* Base Styles for Dark Mode */
+/* Base Styles for Dark Mode (Default) */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -82,4 +82,3 @@ a:hover {
 .light-mode a:hover {
     color: #005bb5;
 }
-
