@@ -1,23 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggle = document.getElementById('theme-toggle'); // Target the toggle button
 
-    themeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('light-mode');
-    });
-
-    // Save the user's theme preference in localStorage
+    // Check if a theme is already set in localStorage
     const currentTheme = localStorage.getItem('theme');
     if (currentTheme == 'light') {
-        document.body.classList.add('light-mode');
+        document.body.classList.add('light-mode'); // Apply light mode if set
     }
 
+    // Event listener for toggle button click
     themeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('light-mode');
-        let theme = 'dark';
+        document.body.classList.toggle('light-mode'); // Toggle the light mode class
+
+        // Update the theme in localStorage
+        let theme = 'dark'; // Default to dark
         if (document.body.classList.contains('light-mode')) {
-            theme = 'light';
+            theme = 'light'; // Set to light if the class is present
         }
-        localStorage.setItem('theme', theme);
+        localStorage.setItem('theme', theme); // Save preference in localStorage
     });
 });
 
