@@ -13,12 +13,12 @@ pagerSize = 20
 style = "github-dark"
 
 [params]
-author = "Bigdum Bape"
+author = "bigdumbape"
 description = "Misinformation Platform"
 keywords = "blog,developer,personal"
 info = ["Social Engineer", "Magician"]
 avatarURL = "images/avatar.jpg"
-footerContent = "Enter a text here."
+footerContent = "i love misinformation"
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = false
